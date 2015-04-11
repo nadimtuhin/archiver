@@ -1,0 +1,6 @@
+/vendor
+/node_modules
+.env
+composer.lock
+dse-scrapper.sublime-project
+dse-scrapper.sublime-workspace

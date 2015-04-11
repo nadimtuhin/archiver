@@ -1,0 +1,30 @@
+{
+    "name": "nadimtuhin/archiver",
+    "description": "Archive files with passwords",
+    "keywords": ["archive", "zip", "password"],
+    "homepage": "http://nadimtuhin.github.io",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nadim Tuhin",
+            "email": "nadimtuhin@gmail.com",
+            "homepage": "http://nadimtuhin.github.io",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+    	"symfony/process": "3.0.*@dev"
+    },
+	"autoload": {
+        "psr-4": {
+            "NadimTuhin\\Archiver\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.1-dev"
+        }
+    }
+}
