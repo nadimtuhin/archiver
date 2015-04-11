@@ -14,7 +14,7 @@
         }
     ],
     "require": {
-    	"symfony/process": "3.0.*"
+    	"symfony/process": "2.6.*"
     },
 	"autoload": {
         "psr-4": {
