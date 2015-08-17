@@ -9,3 +9,12 @@ install using composer
     }
 }
 ```
+
+## How to use
+```php
+$process = new Symfony\Component\Process\Process();
+$zipper = new NadimTuhin\Archiver\ZipArchiver($process);
+$zipper->setInputFilename("myfile.txt");
+$zipper->setPassword("1234");
+$zipper->archive();
+```
