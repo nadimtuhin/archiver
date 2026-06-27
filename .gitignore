@@ -1,6 +1,29 @@
+# Dependencies
 /vendor
 /node_modules
+
+# Environment
 .env
+.env.local
+.env.*.local
+
+# Composer
 composer.lock
+
+# IDE / Editor
 dse-scrapper.sublime-project
 dse-scrapper.sublime-workspace
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# PHP
+*.cache
+/coverage
+/build
